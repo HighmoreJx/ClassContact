@@ -1,0 +1,38 @@
+QPushButton#loginBtn:hover
+{
+    font-family:Î¢ÈíÑÅºÚ;
+	font: 15px;
+	border-image:	url(:/Graduates/Resources/QueueService_hover_btn.png);
+	color: rgb(67, 181, 229);
+}
+
+QPushButton#loginBtn:!hover
+{
+    font-family:Î¢ÈíÑÅºÚ;
+	font: 15px;
+	border-image:	url(:/Graduates/Resources/QueueService_nohover_btn.png);
+	color: rgb(67, 181, 229);
+}
+
+QPushButton#loginBtn:pressed
+{
+    font-family:Î¢ÈíÑÅºÚ;
+	font: 15px;
+	border-image:	url(:/Graduates/Resources/QueueService_pressed_btn.png);
+	color: rgb(255, 255, 255);
+}
+
+QLineEdit {
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 0 8px;
+    background: rgb(255,255,255);
+    selection-background-color: darkgray;
+	width:17px;
+}
+
+QLabel
+{
+	font: 15px;
+	font-family:Î¢ÈíÑÅºÚ;
+}

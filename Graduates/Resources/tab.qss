@@ -1,0 +1,19 @@
+QToolButton#LinkLabel:!hover{
+	border-image: url(":/linkLabel.png");
+	color:rgb(98,180,247);
+	border: 0px;
+	font: 15px;
+}
+QToolButton#LinkLabel:hover{
+	border-image: url(":/linkLabel.png");
+	color:rgb(98,180,247);
+	border: 0px;
+	font: 15px;
+	text-decoration:underline;
+}
+QToolButton#LinkLabel:pressed{
+	border: 0px;
+	color:rgb(98,180,247);
+	font: 15px;
+	border-image: url(":/linkLabel.png");
+}

@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/Graduates">
+        <file>Resources/linkLabel.png</file>
+        <file>Resources/tab.qss</file>
+        <file>Resources/QueueService_hover_btn.png</file>
+        <file>Resources/QueueService_nohover_btn.png</file>
+        <file>Resources/QueueService_pressed_btn.png</file>
+        <file>Resources/login.qss</file>
+        <file>Resources/mainFrame.qss</file>
+        <file>Resources/pic.png</file>
+        <file>Resources/Edit_Hover_btn.png</file>
+        <file>Resources/Edit_noHover_btn.png</file>
+        <file>Resources/Edit_Pressed_btn.png</file>
+        <file>Resources/input.png</file>
+        <file>Resources/input2.png</file>
+        <file>Resources/input3.png</file>
+    </qresource>
+</RCC>

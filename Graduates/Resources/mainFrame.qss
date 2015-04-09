@@ -1,0 +1,103 @@
+ QPushButton#choiceBtn {
+     selection-background-color: darkgray;
+     border: 2px solid #8f8f91;
+     border-radius: 6px;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #f6f7fa, stop: 1 #dadbde);
+	 font: 15px;
+ }
+ QPushButton#choiceBtn:pressed {
+ selection-background-color: darkgray;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #dadbde, stop: 1 #f6f7fa);
+									   font: 15px;							  
+ }
+ QPushButton#choiceBtn:flat {
+ selection-background-color: darkgray;
+     border: none; /* no border for a flat push button */
+	 font: 15px;
+ }
+ QPushButton#choiceBtn:default {
+ selection-background-color: darkgray;
+     border-color: navy; /* make the default button prominent */
+	 font: 15px;
+ }
+
+  QPushButton#saveBtn {
+	background-color:rgb(0,0,0);
+	color: rgb(255, 255, 255);
+ }
+ 
+  QPushButton#saveBtn:pressed {
+	background-color:rgb(255,255,255);
+	color: rgb(0, 0, 0);
+ }
+ 
+ 
+ /***********Leave Message****************/
+ QLineEdit#MessageEdit
+ {
+	border: 2px solid gray;
+ }
+ 
+QPushButton#msgBtn:hover
+{
+	border-image:	url(:/Graduates/Resources/Edit_Hover_btn.png);
+	font: 15px;
+	color: rgb(55, 94, 171);
+	
+}
+
+QPushButton#msgBtn:!hover
+{
+	border-image:	url(:/Graduates/Resources/Edit_noHover_btn.png);
+	font: 15px;
+	color: rgb(55, 94, 171);
+}
+
+QPushButton#msgBtn:pressed
+{
+	border-image:	url(:/Graduates/Resources/Edit_Pressed_btn.png);
+	font: 15px;
+	color: rgb(55, 94, 171);
+}
+
+ /***********Info Search****************/
+QLineEdit#SearchEdit:hover
+{
+	border: 2px solid gray;
+    border-radius: 5px;
+    padding: 0 8px;
+    background: rgb(255,255,255);
+    selection-background-color: darkgray;
+}
+QLineEdit#SearchEdit:!hover
+{
+	 border: 2px solid gray;
+    border-radius: 5px;
+    padding: 0 8px;
+    background: rgb(255,255,255);
+    selection-background-color: darkgray;
+}
+QLineEdit#SearchEdit:pressed
+{
+	border: 2px solid gray;
+    border-radius: 5px;
+    padding: 0 8px;
+    background: rgb(255,255,255);
+    selection-background-color: darkgray;
+}
+QPushButton#classmanageTab:checked
+{
+	border: 2px solid gray;
+	color:rgb(41,40,41);
+	background-color:rgb(255,255,255);
+}
+QPushButton#classmanageTab:!checked
+{	
+	border: 2px solid gray;
+	color:rgb(255,255,255);
+	background-color:gray;
+}
+
+
